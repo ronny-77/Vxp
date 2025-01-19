@@ -144,7 +144,7 @@ userInputService.InputBegan:Connect(function(input, gameProcessedEvent)
         return
     end
  
-    if input.KeyCode == Enum.KeyCode.M then
+    if input.KeyCode == Enum.KeyCode.Y then
         activateEmote()
     end
 end)
